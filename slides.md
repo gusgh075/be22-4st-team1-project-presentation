@@ -694,12 +694,8 @@ layout: center
 # 04-6. 인프라:<br>CI/CD 테스트 결과
 
 <div class="flex flex-col items-center justify-center">
-  <div v-click v-motion :initial="{ scale: 0.8, opacity: 0 }" :enter="{ scale: 1, opacity: 1 }" class="w-full max-w-2xl border-4 border-green-500/30 rounded-2xl overflow-hidden shadow-2xl">
-    <!-- Jenkins GIF Placeholder -->
-    <div class="bg-black/40 aspect-video flex items-center justify-center text-green-400 font-mono">
-      [ Jenkins CI/CD Success GIF Placeholder ]<br>
-      (Build Success -> Docker Push -> ArgoCD Sync)
-    </div>
+  <div class="w-full max-w-2xl border-4 border-green-500/30 rounded-2xl overflow-hidden shadow-2xl">
+    <img src="/CI-CD결과화면.gif" class="w-full aspect-video object-cover" />
   </div>
   <p class="mt-6 text-gray-400" v-click>성공적인 파이프라인 가동 및 무중단 배포 확인</p>
 </div>
@@ -710,7 +706,7 @@ layout: center
 
 # 🎥 시연 영상: 1. 회원가입, 로그인, 로그아웃
 
-<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden" v-click v-motion :initial="{ y: 50, opacity: 0 }" :enter="{ y: 0, opacity: 1 }">
+<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden">
   <img src="/1.회원가입,로그인,로그아웃.gif" class="w-full h-full object-cover" />
 </div>
 
@@ -725,7 +721,7 @@ layout: center
 
 # 🎥 시연 영상: 2. 내 프로필 조회, 수정, 삭제
 
-<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden" v-click v-motion :initial="{ y: 50, opacity: 0 }" :enter="{ y: 0, opacity: 1 }">
+<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden">
   <img src="/2.내프로필 조회,수정,삭제.gif" class="w-full h-full object-cover" />
 </div>
 
@@ -740,7 +736,7 @@ layout: center
 
 # 🎥 시연 영상: 3. 사용자 검색, 친구 요청, 수락, 삭제
 
-<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden" v-click v-motion :initial="{ y: 50, opacity: 0 }" :enter="{ y: 0, opacity: 1 }">
+<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden">
   <img src="/3.사용자검색,친구요청,수락,삭제.gif" class="w-full h-full object-cover" />
 </div>
 
@@ -755,7 +751,7 @@ layout: center
 
 # 🎥 시연 영상: 4. 일기 스크랩 목록 추가 조회
 
-<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden" v-click v-motion :initial="{ y: 50, opacity: 0 }" :enter="{ y: 0, opacity: 1 }">
+<div class="w-full max-w-3xl aspect-video bg-black/50 rounded-2xl border border-gray-700 flex items-center justify-center shadow-2xl overflow-hidden">
   <img src="/4.일기 스크랩 목록 추가 조회.gif" class="w-full h-full object-cover" />
 </div>
 
