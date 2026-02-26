@@ -1,0 +1,64 @@
+/* ═══════════════════════════════════════
+   MapLog Slidev Theme Customization
+   ═══════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --slidev-theme-primary: #58a6ff;
+  --slidev-theme-accent: #bc8cff;
+  
+  /* MapLog Brand Colors */
+  --ml-blue: #58a6ff;
+  --ml-purple: #bc8cff;
+  --ml-bg: #0d1117;
+  --ml-bg-soft: #161b22;
+  --ml-text: #e6edf3;
+  --ml-gradient: linear-gradient(135deg, var(--ml-blue), var(--ml-purple));
+}
+
+/* Base Styles */
+.slidev-layout {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background-color: var(--ml-bg);
+  color: var(--ml-text);
+}
+
+/* Heading Gradients */
+h1, h2, h3 {
+  background: var(--ml-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+/* Custom logo style for first slide */
+.ml-logo-gradient {
+  background: var(--ml-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+}
+
+/* Bullet points and links */
+.slidev-layout a {
+  color: var(--ml-blue);
+}
+
+.slidev-layout b, .slidev-layout strong {
+  color: var(--ml-blue);
+}
+
+.slidev-layout code {
+  background: var(--ml-bg-soft);
+  color: var(--ml-purple);
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}
+
+/* Dark mode specific adjustments */
+.dark .slidev-layout {
+  background-color: var(--ml-bg);
+}
