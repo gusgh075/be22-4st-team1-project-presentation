@@ -91,9 +91,9 @@ layout: default
   <div v-click="1" v-motion :initial="{ x: -100, opacity: 0 }" :enter="{ x: 0, opacity: 1 }" class="border border-gray-800 bg-[#161b22] p-4 rounded-xl shadow-lg hover:border-blue-500/50 transition-all">
     <h3 class="text-blue-400 mb-2 flex items-center gap-2"><carbon:cloud-service-management/> 정현호 (CI/CD 총괄)</h3>
     <ul class="opacity-90 text-[10px] space-y-1">
-      <li>• <b>파이프라인 설계/운영</b>: Jenkins & ArgoCD 전체 자동화 구조 설계</li>
-      <li>• <b>브랜치 전략 수립</b>: GitFlow 기반 배포 전략 및 자동화 기준 확립</li>
-      <li>• <b>안정성 확보</b>: 배포 실패 시 롤백 기준 수립 및 배포 자동화 구현</li>
+      <li><b>파이프라인 설계/운영</b>: Jenkins & ArgoCD 전체 자동화 구조 설계</li>
+      <li><b>브랜치 전략 수립</b>: GitFlow 기반 배포 전략 및 자동화 기준 확립</li>
+      <li><b>안정성 확보</b>: 배포 실패 시 롤백 기준 수립 및 배포 자동화 구현</li>
     </ul>
   </div>
   <div v-click="2" v-motion :initial="{ x: 100, opacity: 0 }" :enter="{ x: 0, opacity: 1 }" class="border border-gray-800 bg-[#161b22] p-4 rounded-xl shadow-lg hover:border-green-500/50 transition-all">
@@ -249,10 +249,10 @@ layout: default
   <carbon:chevron-right v-click class="text-gray-600"/>
   <div v-click class="flex flex-col items-center gap-1"><carbon:rocket class="text-green-400 text-lg"/><span>ArgoCD Sync</span></div>
   <carbon:chevron-right v-click class="text-gray-600"/>
-  <div v-click="11" class="flex flex-col items-center gap-1"><carbon:kubernetes class="text-blue-300 text-lg"/><span>K8s Cluster</span></div>
+  <div v-click class="flex flex-col items-center gap-1"><carbon:kubernetes class="text-blue-300 text-lg"/><span>K8s Cluster</span></div>
 </div>
 
-<div v-click="12" class="mt-4 p-3 bg-blue-900/10 border border-blue-800/20 rounded-lg text-[10px] text-blue-200/80 italic text-center">
+<div v-click class="mt-4 p-3 bg-blue-900/10 border border-blue-800/20 rounded-lg text-[10px] text-blue-200/80 italic text-center">
   <b>GitOps</b>: Git 레포지토리를 <b>단일 진실 공급원(SSOT)</b>으로 사용하여 인프라의 '원하는 상태'를 관리하고, ArgoCD가 실제 환경과 실시간 동기화하는 운영 모델입니다.
 </div>
 
